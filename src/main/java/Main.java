@@ -1,10 +1,11 @@
 import api.GoogleBooks;
 
+import java.io.IOException;
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
 public class Main {
-    public static void main(String[] args) {
+    public static void main(String[] args ) throws IOException, InterruptedException {
         Scanner scr = new Scanner(System.in);
 
         GoogleBooks consultaLivro = new GoogleBooks();
